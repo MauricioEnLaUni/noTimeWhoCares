@@ -23,7 +23,7 @@
   "scope": "./",
   "screenshots": [{
     "src": "/assets/icons/brachyIcon.svg",
-    "sizes": "440x441",
+    "sizes": "440x440",
     "type": "image/svg+xml",
     "platform": "wide",
     "label": "Page Icon"
