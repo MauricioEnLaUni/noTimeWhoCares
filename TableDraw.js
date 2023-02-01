@@ -111,5 +111,3 @@ class DrawController {
     Media.handleMedia();
   }
 }
-
-DrawController.changeState(0);
