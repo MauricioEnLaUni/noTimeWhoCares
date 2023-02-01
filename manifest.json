@@ -20,7 +20,7 @@
   "id": "?homescreen=1",
   "name": "Best Bois' FanPage",
   "orientation": "landscape",
-  "scope": "/",
+  "scope": "./",
   "screenshots": [{
     "src": "/assets/icons/brachyIcon.svg",
     "sizes": "440x441",
@@ -39,6 +39,6 @@
     }
   },
   "short_name": "BrachyPage",
-  "start_url": "/",
+  "start_url": "./?utm_source=web_app_manifest",
   "theme_color": "hsl(226.8,69.5%,11.6%)"
 }
