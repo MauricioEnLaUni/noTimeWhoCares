@@ -4,10 +4,16 @@ class ServiceWorker {
 
     const APP_SHELL = [
       "/",
-      "index.html",
-      "css/style.css",
-      "public/index.js",
-      "assets/icons/brachyIcon.svg"
+      "noTimeWhoCares/index.html",
+      "noTimeWhoCares/css/style.css",
+      "noTimeWhoCares/public/index.js",
+      "noTimeWhoCares/assets/icons/brachyIcon.png",
+      "noTimeWhoCares/assets/img/brachydios/mh3u/fmD73q.avif",
+      "noTimeWhoCares/assets/img/brachydios/mh4u/YRFwgT.avif",
+      "noTimeWhoCares/assets/img/brachydios/mhwi/WrJesY.avif",
+      "noTimeWhoCares/assets/img/logo/qBBV84.avif",
+      "noTimeWhoCares/assets/img/mugshot/50ZOpY.avif"
+
     ];
 
     self.addEventListener("install", (e) => {
