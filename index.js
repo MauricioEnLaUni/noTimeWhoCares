@@ -1,8 +1,7 @@
 class Driver {
   static setSW() {
-    let path = './sw.js';
+    let path = 'sw.js';
     if (!navigator.serviceWorker) return null;
-    if(window.location.href.includes('localhost')) path = "./sw.js";
 
     navigator.serviceWorker.register(path);
   }
