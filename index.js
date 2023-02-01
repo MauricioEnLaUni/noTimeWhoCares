@@ -7,7 +7,6 @@ class Driver {
   }
 
   static main() {
-    Driver.setSW();
     DrawController.changeState(0);
   }
 }
