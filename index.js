@@ -1,6 +1,6 @@
 class Driver {
   static setSW() {
-    let path = '/sw.js';
+    let path = './sw.js';
     if (!navigator.serviceWorker) return null;
 
     navigator.serviceWorker.register(path);
