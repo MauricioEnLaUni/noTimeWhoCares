@@ -27,6 +27,27 @@
     "type": "image/svg+xml",
     "platform": "wide",
     "label": "Page Icon"
+  },
+  {
+    "src": "/assets/img/brachydios/mh3u/fmD73q.avif",
+    "sizes": "440x441",
+    "type": "image/avif",
+    "platform": "wide",
+    "label": "Wide Image"
+  },
+  {
+    "src": "/assets/img/brachydios/mh3u/fmD73q.webp",
+    "sizes": "440x441",
+    "type": "image/webp",
+    "platform": "wide",
+    "label": "Wide Image"
+  },
+  {
+    "src": "/assets/img/brachydios/mh3u/fmD73q.jpg",
+    "sizes": "440x441",
+    "type": "image/jpg",
+    "platform": "wide",
+    "label": "Wide Image"
   }],
   "short_name": "BrachyPage",
   "start_url": "./?utm_source=web_app_manifest",
