@@ -1,0 +1,48 @@
+{
+  "background_color": "hsl(226.8,69.5%,11.6%)",
+  "categories": [
+    "education",
+    "business",
+    "personalization",
+    "productivity",
+    "social",
+    "utilities"
+  ],
+  "description": "PWA Developed for the Multiplatform Web Applications Class at the Universidad Tecnológica de Aguascalientes.",
+  "display": "browser",
+  "icons": [
+    {
+      "src": "/assets/icons/brachyIcon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/img/brachydios/mhwi/WrJesY.avif",
+      "sizes": "512x512",
+      "type": "image/avif"
+    }
+  ],
+  "id": "?homescreen=1",
+  "name": "Best Bois' FanPage",
+  "orientation": "landscape",
+  "scope": "/",
+  "screenshots": [{
+    "src": "/assets/icons/brachyIcon.svg",
+    "sizes": "256x256",
+    "type": "image/svg+xml",
+    "platform": "wide",
+    "label": "Page Icon"
+  }],
+  "share_target": {
+    "action": "/share-content-receiver",
+    "method": "GET",
+    "params": {
+      "title": "name",
+      "text": "description",
+      "url": "link"
+    }
+  },
+  "short_name": "BrachyPage",
+  "start_url": "index.html",
+  "theme_color": "hsl(226.8,69.5%,11.6%)"
+}

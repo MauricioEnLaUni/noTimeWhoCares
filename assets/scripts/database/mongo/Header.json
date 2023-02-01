@@ -1,0 +1,28 @@
+{
+    "content": [{
+            "tag": "header",
+            "idHtml": "logo-container",
+            "children": [
+                {
+                    "tag": "img",
+                    "id": "header-logo",
+                    "alt": "Brachydios Badge",
+                    "src": "qBBV84",
+                    "formats": ["avif", "webp", "png"],
+                    "classes": ["header-element", "logo-img", "start-right"]
+                },
+                {
+                    "tag": "h1",
+                    "id": "logo-title-up",
+                    "classes": ["logo-text", "text-shadowed", "blue-green-text", "important-text"],
+                    "content": "Best Boi"
+                },
+                {
+                    "tag": "h2",
+                    "id": "logo-title-down",
+                    "classes": ["logo-text", "text-shadowed", "blue-green-text", "important-text"],
+                    "content": "Fan Page"
+                }
+            ]
+        }]
+}

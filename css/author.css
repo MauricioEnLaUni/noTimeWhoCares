@@ -1,0 +1,39 @@
+.circular-picture {
+  border: .6em double white;
+  border-radius: 100vh;
+}
+
+.md-photo {
+  min-width: 160px;
+  width: calc((var(--width) / 6) - 60px);
+}
+
+.personal-important {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+aside {
+  color:  hsl(105, 95%, 78%);
+  text-align: center;
+  text-shadow: 1px 1px 1px hsl(196, 91%, 34%), 0px -1px 1px hsl(181, 100%, 45%);
+  width: calc(var(--width) / 6);
+  -webkit-text-stroke: .7px black;
+}
+
+.personal-mid {
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-tabs {
+  min-width: var(--width);
+}
+
+.m-left {
+  margin-left: calc(var(--width) / 35);
+}

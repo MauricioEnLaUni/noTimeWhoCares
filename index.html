@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/icons/brachyIcon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/author.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/tables.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Document</title>
+</head>
+<body>
+  <header id="navbar" class="top-bar">
+    <header id="logo-container" class="top-bar-logo-container">
+      <img
+        class="header-element logo-img start-right"
+        id="header-logo" alt="Brachydios Badge"
+        src="assets/img/logo/qBBV84.avif"
+        onerror="this.onerror=null; this.src='/assets/img/logo/qBBV84.webp'"
+      />
+      <h1
+        class="vertical-center logo-text text-shadowed blue-green-text important-text"
+        id="logo-title-down"
+      >
+        Fan Page
+      </h1>
+      <h1
+        class="vertical-center logo-text text-shadowed blue-green-text important-text"
+        id="logo-title-up"
+      >
+        Best Boi
+      </h1>
+    </header>
+    
+    <nav>
+      <ul>
+        <li class="nav-list"><a class="nav-a vertical-center">HOME</a></li>
+        <li class="nav-list"><a class="nav-a vertical-center">ABOUT US</a></li>
+        <li class="nav-list"><a class="nav-a vertical-center">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <nav>
+        <ul class="main-nav">
+          <li class="nav-list main-nav-li">
+            <a class="vertical-center nav-b" href="#" onclick="DrawController.changeState(0)">MH3U</a>
+          </li>
+          <li class="nav-list main-nav-li">
+            <a class="vertical-center nav-b" href="#" onclick="DrawController.changeState(1)">MH4U</a>
+          </li>
+          <li class="nav-list main-nav-li" >
+            <a class="vertical-center nav-b" href="#" onclick="DrawController.changeState(2)">Iceborne</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <aside>
+      <div>
+        <img
+          src="assets/img/mugshot/50ZOpY.avif"
+          id="author-photo"
+          class="circular-picture md-photo"
+          onerror="this.onerror=null; this.src='assets/img/mugshot/50ZOpY.webp'"
+          alt="Author's photo"
+        />
+      </div>
+      <div>
+        <p class="center-text">
+          <span class="personal-important">Universidad Tecnológica de Aguascalientes</span><br />
+          <span class="personal-important">Mauricio López Cházaro</span></br>
+          <span class="personal-mid">Materia: </span>
+          <span class="personal-mid">Desarrollo Móvil Multiplataforma</span><br />
+          <span class="personal-mid">Profesor: </span><span></span><br />
+          <span class="personal-mid">Grupo: </span><span>5° A</span><br />
+          <span></span>
+        </p>
+      </div>
+    </aside>
+
+    <section class="m-left">
+      <header>
+        <h1 class="top-title">Brachydios</h1>
+        <div id="description"></div>
+      </header>
+
+      <article>
+        <h3 class="inner-title">Hit Zones</h3>
+        <table id="table-draw">
+          
+        </table>
+
+        <img id="showcase" src="" alt="">
+      </article>
+
+    </section>
+  </main>
+
+  <footer id="media-area">
+  </footer>
+
+  </main>
+</body>
+<script src="TableDraw.js"></script>
+</html>
