@@ -28,16 +28,6 @@
     "platform": "wide",
     "label": "Page Icon"
   }],
-  "share_target": {
-    "action": "/share-content-receiver",
-    "enctype": "application/x-www-form-urlencoded",
-    "method": "GET",
-    "params": {
-      "title": "name",
-      "text": "description",
-      "url": "link"
-    }
-  },
   "short_name": "BrachyPage",
   "start_url": "./?utm_source=web_app_manifest",
   "theme_color": "hsl(226.8,69.5%,11.6%)"
