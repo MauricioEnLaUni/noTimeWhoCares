@@ -25,7 +25,7 @@
   "id": "?homescreen=1",
   "name": "Best Bois' FanPage",
   "orientation": "landscape",
-  "scope": "/",
+  "scope": "index.html/",
   "screenshots": [{
     "src": "/assets/icons/brachyIcon.svg",
     "sizes": "256x256",
