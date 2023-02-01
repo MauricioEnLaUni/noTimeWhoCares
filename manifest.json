@@ -39,6 +39,6 @@
     }
   },
   "short_name": "BrachyPage",
-  "start_url": "index.html",
+  "start_url": "/",
   "theme_color": "hsl(226.8,69.5%,11.6%)"
 }
