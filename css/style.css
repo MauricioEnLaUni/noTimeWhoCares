@@ -153,3 +153,59 @@ main {
 .m-left {
   margin-left: calc(var(--width) / 35);
 }
+
+.contents {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "text img"
+    "table table"
+    "video video";
+  grid-template-columns: calc(var(--width) / 3.5) calc(var(--width) / 2.4);
+  width: 80%;
+}
+
+.grids {
+  display: grid;
+  color: white;
+}
+
+.brachy-title {
+  grid-area: title;
+}
+.table-img {
+  grid-area: img;
+  width: 100%;
+}
+.table-desc {
+  grid-area: text;
+}
+
+.tablesss {
+  font-size: 14px;
+  grid-area: table;
+}
+
+table, th, td {
+  border: .35px solid white;
+  text-align: center;
+}
+td {
+  padding: .3% 0;
+}
+
+.tzCenter {
+  text-align: center;
+}
+
+#audio {
+  display: hidden;
+}
+
+#video {
+  display: block;
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}

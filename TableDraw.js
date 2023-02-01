@@ -71,20 +71,23 @@ class Media {
     cont.setAttribute("width", 640);
     cont.setAttribute("height", 360);
     cont.setAttribute("controls", true);
+    cont.setAttribute("id", "video");
     document.getElementById("media-area").appendChild(cont);
 
     let media = document.createElement("source");
     media.setAttribute("src", "assets/video/" + Media.video[DrawController.state]);
     media.autoplay = true;
     cont.appendChild(media);
+    document.getElementById("video").play();
   }
 
   static playAudio = () => {
     let audio = document.createElement("audio");
     audio.setAttribute("src", "assets/audio/" + Media.audio[DrawController.state]);
-    audio.setAttribute("controls", true);
     audio.setAttribute("type", "audio/mpeg");
+    audio.setAttribute("id", "audio");
     document.getElementById("media-area").appendChild(audio);
+    document.getElementById("audio").play();
   }
 
   static setShowCase = () => {

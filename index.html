@@ -7,6 +7,7 @@
   <link rel="manifest" href="manifest.json">
   <link rel="shortcut icon" href="assets/icons/brachyIcon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="temp.css">
   <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
   <title>U1 - Project</title>
 </head>
@@ -82,19 +83,35 @@
       </div>
     </aside>
 
-    <section class="m-left">
-      <header>
+    <section class="m-left contents">
+      <header class="grids brachy-title">
         <h1 class="top-title">Brachydios</h1>
-        <div id="description"></div>
       </header>
 
-      <article>
-        <h3 class="inner-title">Hit Zones</h3>
-        <table id="table-draw">
-          
-        </table>
+      <div id="description" class="grids table-desc"></div>
 
-        <img id="showcase" src="" alt="">
+      <img id="showcase" src="" alt="Game's artwork" class="grids table-img ">
+
+      <article class="grids tablesss">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="9"><h3 class="inner-title hzCenter">Hit Zones</h3></th>
+            </tr>
+            <tr>
+              <th></th>
+              <th>Cut</th>
+              <th>Impact</th>
+              <th>Shot</th>
+              <th>Fire</th>
+              <th>Water</th>
+              <th>Ice</th>
+              <th>Thunder</th>
+              <th>Dragon</th>
+            </tr>
+          </thead>
+          <tbody  id="table-draw"></tbody>
+        </table>
       </article>
 
     </section>
