@@ -11,7 +11,7 @@
   "description": "PWA Developed for the Multiplatform Web Applications Class at the Universidad Tecnológica de Aguascalientes.",
   "display": "standalone",
   "icons": [{
-    "src": "/assets/icons/brachyIcon.png",
+    "src": "assets/icons/brachyIcon.png",
     "sizes": "256x256",
     "type": "image/png",
     "purpose": "any"
@@ -22,21 +22,21 @@
   "scope": "./",
   "screenshots": [
   {
-    "src": "/assets/img/brachydios/mh3u/fmD73q.avif",
+    "src": "assets/img/brachydios/mh3u/fmD73q.avif",
     "sizes": "1000x591",
     "type": "image/avif",
     "platform": "wide",
     "label": "Wide Image"
   },
   {
-    "src": "/assets/img/brachydios/mh3u/fmD73q.webp",
+    "src": "assets/img/brachydios/mh3u/fmD73q.webp",
     "sizes": "1000x591",
     "type": "image/webp",
     "platform": "wide",
     "label": "Wide Image"
   },
   {
-    "src": "/assets/img/brachydios/mh3u/fmD73q.jpg",
+    "src": "assets/img/brachydios/mh3u/fmD73q.jpg",
     "sizes": "1000x591",
     "type": "image/jpg",
     "platform": "wide",
