@@ -10,24 +10,18 @@
   ],
   "description": "PWA Developed for the Multiplatform Web Applications Class at the Universidad Tecnológica de Aguascalientes.",
   "display": "standalone",
-  "icons": [
-    {
-      "src": "/assets/icons/brachyIcon.svg",
-      "sizes": "440x441",
-      "type": "image/svg+xml"
-    }
-  ],
+  "icons": [{
+    "src": "/assets/icons/brachyIcon.png",
+    "sizes": "256x256",
+    "type": "image/png",
+    "purpose": "any",
+    "label": "Page Icon"
+  }],
   "id": "?homescreen=1",
   "name": "Best Bois' FanPage",
   "orientation": "landscape",
   "scope": "./",
-  "screenshots": [{
-    "src": "/assets/icons/brachyIcon.ico",
-    "sizes": "256x256",
-    "type": "image/svg+xml",
-    "platform": "wide",
-    "label": "Page Icon"
-  },
+  "screenshots": [
   {
     "src": "/assets/img/brachydios/mh3u/fmD73q.avif",
     "sizes": "1000x591",
